@@ -1,0 +1,6 @@
+{
+  "name": "vulnerable-project",
+  "dependencies": {
+    "express": "4.17.0" // Known vulnerable version
+  }
+}
