@@ -1,0 +1,1 @@
+const secret = "my-secret-key";
