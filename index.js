@@ -4,7 +4,7 @@ const express = require("express");
 const crypto = require("crypto");
 const app = express();
 
-
+db.query("SELECT * FROM users WHERE id = " + userInput);
 
 // Hardcoded secrets
 const apiKey = "12345-abcde";
