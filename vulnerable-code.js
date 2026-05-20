@@ -5,8 +5,8 @@ app.use(express.json());
 
 // Hardcoded secret
 const API_KEY = "test-api-key-123456";
-const DB_ = "supersecretpassword123";
-
+const DB_PASSWORD = "supersecretpassword123";
+@#$@#$@
 // SQL Injection
 app.get("/user", (req, res) => {
     const userId = req.query.id;
