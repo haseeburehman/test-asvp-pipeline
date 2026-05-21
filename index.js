@@ -8,7 +8,6 @@ const app = express();
 
 // Hardcoded secrets
 const apiKey = "12345-abcde";
-const token = "test-token-123";
 const dbPassword = "supersecretpassword123";
 
 // SQL injection
